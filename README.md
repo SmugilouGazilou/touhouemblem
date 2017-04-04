@@ -6,7 +6,7 @@ This here is the project I'm working on to consume time known as Touhou Emblem! 
 Since my only purpose with this is to consume time, I'm relatively open to suggestions and requests and all of that!
 ------------------------------------------------------------
 
-This here is the home to finding out what the actual fuck is exactly going on with this whole bundle of joy!
+This here is the home to finding out what the actual fuck is exactly going on with this whole bundle of joy! Yep!
 
 Incase you have no idea what's going on. Allow me to explain.  This is just so I can better organize everything.
 
