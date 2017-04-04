@@ -1,0 +1,47 @@
+Touhou Emblem
+
+When you complete a battle, you can still preform actions for a split second and attempting one on yourself crashes your game typically. Fixed.
+
+The Party Manager Guy doesn't properly record battle counts.
+
+Hitting Right Arrow Key while you have an actor selected to determine a course of action for causes them to skip their turn entirely.
+
+That Menu Disappearing Bug is still there. The one where when you choose to do something then as you're going to confirm the target, you back out and all the text is gone save for the skill/action names unless you go back to selecting your type of action? Yeah. That's broke.
+
+During the dragon fight, seemingly enough, the dragon's tiles should be 3x3 in a square like a Tic-Tac-Toe board. Instead, the only targetable tiles are the middle and bottom row of it.
+
+If you lose any tactical styled battles, there's a 90% chance of your game crashing. Semi-Fixed.
+
+All enemies are currently capable of being convinced to join the player's team. However,  as intended, only Marisa will join your party provided she's alive at the end of said battle.  Fixed actually.(edited)
+March 30, 2017
+Abyssal Gaze
+-
+Last Thursday at 8:06 PM
+Using items gives you EXP. Such as Poison Bombs. And since they're considered attacks, anyone that they hit, be it healing item or bomb-type item or whatever, when it's used.
+
+The using character gets 10 EXP no matter what. I'm fixing this.
+Sakuya's Slow Move only reduces Actor's Movement and not Enemy Movement.
+March 31, 2017
+Abyssal Gaze
+-
+Last Friday at 1:11 AM
+When learning skills, if you switch via the Q/W Quickswitch commands, sometimes the skills from other characters are still there to learn and trying to learn such will result in a crash. Fixed.(edited)
+April 1, 2017
+Abyssal Gaze
+-
+Last Saturday at 8:24 AM
+Due to a huge lagging bug, I'd disabled the fancy looking Main Menu. I'll have to rework it with some of the newer stuff I've made. If your game currently lags any more than 2 seconds at most when you hit the ESC button, then that's usually fine, but a warning sign.
+
+This time, it was lagging 10 - 23 seconds per pressing. So Byebye, Smexy Menu for a bit.
+
+It seems the reason for this bug is easily fixable. But is a long process. Basically. Due to all the custom icons and such my friends gave me, the main menu code snippets that're being used seemingly try to load the "optimizations" since all I did was add onto the default icon set rather than making it new entirely since that's the only real way to do it.
+
+The reason it'll take forever to fix is because I have to fix the code snippets lest I wish to reoptimize like, 2000 icons individually which is even longer.
+April 3, 2017
+Abyssal Gaze
+-
+Yesterday at 11:50 AM
+REPLY
+https://a.cocaine.ninja/vqqwkh.png 
+
+THIS UGLINESS.
