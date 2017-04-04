@@ -1,0 +1,424 @@
+3/18/17 - Changelog
+
+Added in Aya. Currently lacking skills. But hey. Gotta get everything made first. Will have all skills by level 5.
+Added in the beginning of the party dropin and out system. Can be utilized by talking to the new NPC to the right of the Test Portal area. (Dismissing an ally will permanently remove them.)
+
+Changed Graze Dash (From 100% Magic Evade/50% Physical Attack Evade to 85% Magic Evade/45$ Physical Evade/10% Critical Evade)
+Youmu has four new skills, in which she'll have all unlocked by level 7.  Also changed growths to lean more towards Agile Swordsman. (Slash Of Present [Spellcard], Soul Blade, Concentration, Focus Strike)
+(Focus Strike is learnable via the learn skills option.)
+Finished coding in the first Soul Orb. However, it's not added in yet.  
+Fixed Okuu's Cannon Shot skill so it now properly does damage and AoEs properly.
+Testual Chest gives more gold now. (300 --> 550)
+Reworked Raging Spirit Shard (Now gives -2% Evade taken instead of +2% ATK converted into Fire Damage.)
+Wind Succubus has a 5% chance now to drop a new weapon for Youmu upon every death.
+New Shop Look. Have fun.
+Fixed enemy AI. Finally. Now they won't go infinite dark hole spamming you.
+Finished coding in Terrain. However, it's not added in this update for obvious reasons.
+The way I coded things, upon losing, you get a game over. However, since I put the tutorial battles to take you back after losing, the game crashes as a result of this. So save menus will appear before every fight now so that you don't lose data abruptly.(edited)
+Added in the first steps of the alchemy system. Soul Orb will be craftable soon.
+Youmu now gets [Weapon Break, Armor Break, and Focus Strike] as options in the [Learn Skills] menu.
+Added one skill to Sakuya. (Extended Throw.)
+Fixed the descriptions for Sakuya's Slow Move, Flare and Poison Bomb.
+Added in a new item, Flash Bomb. It's the same as a poison bomb, only attempts to blind instead.
+Added in a new level-up skill for Ran: [Healing Circle] which is a small AoE Heal. Ran no longer has the "Yakumo" part at the end of her name. Ran no longer starts off with Sweep Kick as an ability.
+A major amount of skills can now be upgraded. Aura Blade now has a perma-switch upgrade optional skill. Aura Blade gains extra damage upon upgrading. 
+Wind Succubus now give more gold and EXP upon death.  Missing hits no longer gives EXP.
+SPD Stat is now used to calculate damage in some attacks. Stats also give minor boosts to other parameters.
+Hitting the "D" key outside of battle shows you a new test HUD. Kinda broken.
+Hitting Q/E when prompted to place units for battle properly changes the active unit to place down. (You still have to hit the "X" button or "ESC" in order to confirm you're ready to start a battle.)
+Buffed Okuu's Base Move (From 2 to 3.) 
+Changed Cover. (Autoprotect allies ---> Reduce Visibility Of Ally for 1 turn.)  Spells now properly critical. Some skills and attacks
+Added in Spellcards, currently coding in proper system.
+Abyssal Gaze
+-
+03/18/2017
+Added in new skill to Ran. (Overcast)
+Stun/Sleep/Paralysis now properly reduce movement. Still allows you to move anyhow, just with no range. Actions are still properly restricted.
+Added in a new skill to Youmu. (Spirit Blade).
+Summoning System Finished, Chen Summon for Ran added in.  (Actually removed due to bugginess. Will be fixed after next update.)
+Okuu no longer has Dual Attack learned as for it's a pointless skill.
+Enemies will actually take their sweet time processing all possible ways to fuck you over. Meaning the unexpected might happen! (tl;dr, Enemy AIs got revamped and are even fucking weirder.)
+
+First 4 Alchemy-crafted items is now avaliable! (Vortex Grenade, Shade Scroll, Spectral Binds Spellbook (Ran) , Small TP Potion)
+16 Alchemy Materials added + 4 Recipes added in!
+Four new enemies added in! (Vol Dragon, Bandit, Marisa Kirisame [She's not in though. Just already made.], Blue Slime)
+AIs can now properly use skills with AoE effects.
+Two new maps added in! (Albeit only one is accessable.)
+Nerfed Youmu's base hit chance. (From 95% to 85%.)
+Slow Move Altered. (Reduces SPD by 3 instead of 1.) + New Animation. 
+Sakuya now gets Armor Break instead of Weapon Break at level 4.
+Nerfed Sakuya's Base Crit. (From 17% to 8%.)
+Sweep Kick now costs 5 TP to use. Stun chance reduced. (From 50% to 40%.)
+Made Unique Item Types and Variants for every character as of now. (Sakuya, Aya, Youmu, Chen, Ran, Okuu)
+Altered Growths and EXP rates of all characters to be more balanced.
+Added in Job Point System. This should hopefully work for using the currency to upgrade skills.
+Okuu has two new skills (Rocket Dive, Mortar Shot)
+Sakuya has a new skill. (Targeted Time Stop.)(edited)
+Abyssal Gaze
+-
+03/18/2017
+Volume Commands added/Settings Menu (Not this update, game stutters for me, at least when I use it specifically. Volume Commands also don't work 95% of the time. Tricky little things.)
+Test Chamber now has 8 unit placers instead of 4. This effectively allows you to place Aya during the tutorial fights so she doesn't get left behind as well as future other characters.
+Aya has five new skills! (Showtime, Informational Networking, Camera Flash, Quickness,  Wind Sickle)
+Players can now properly hit the 'x' button while targetting an empty tile to end their turn manually.
+Attributes system is now properly fixed for everyone beyond Sakuya.  This has the real potential for a stat allocated system rather than a growth system. Since growths are preset and not RNG. So I'll think about that.
+Changed Okuu's Nickname from "Nuclear Birb" to "Divine Flame"
+Changed Youmu's Nickname from "Ghost Servant" to "Servant"
+Changed Sakuya's Class name from "Perfect Maid" to "Illusionist"
+During the tutorial battle, you'll always get your turn first now.
+Parameter Renames. (Attack = Strength (Possibly going to undo this.)
+Magic Attack = Intelligence (Possibly going to undo this.)
+Agility = Speed
+Magic Defense = Resistance (Possibly going to undo this.)
+)
+Most skills properly benefit from upgrading them now. Some also properly evolve into other skills now.
+Sakuya can now learn Weapon Break from the Learn Skills Menu. 
+Cannon Shot's Upgrade Formula  changed to +10% TP Consumption per level, +25% Damage per level.(edited)
+Abyssal Gaze
+-
+03/18/2017
+Cannon Shot now costs 200 * Level JP to upgrade per level.
+Added in a new item, Phantasm Shard.
+Putting Raging Spirit and Magic Tuning next to each other now gives you a new skill rather than Fire Breath.
+Throwable Items [Such as Poison Bombs and Flash Bombs] now have limited usages and can only be used in skill form by the character it's equipped on. 
+Expanded Equippable Accessory Slots from 1 --> 2 for future confirmed plans. Removed equipment slots such as headgear and such for those who won't be changing them.
+Elemental Reflect/Absorb system added in, although not used for the time being.
+Very buggy New Game+ Feature made, but not added in yet.
+Added in six new status effects. (Chilling, Frozen, Drenched, Spell Absorb, Bleeding, Lingering Damage)
+Youmu now has 15% base resistance to Poison and Bleeding.
+Water Base Damage reduced from 200 to 125.(edited)
+March 19, 2017
+Abyssal Gaze
+-
+03/19/2017
+All Updates Require You To Start A New Game.
+Abyssal Gaze
+-
+03/19/2017
+Fixed a huge issue with the exe and compression. Deleting all the exes and files you've downloaded and installed is required.(edited)
+Abyssal Gaze
+-
+03/19/2017
+@everyone  https://mega.nz/#!AxhATBRb!Mk3exC46pkc4Uz3khrnJqb_Tbe0tVz3t00U7sYwer7Y
+
+New update. Huzzah? Maybe not? It's finally no longer needed to be updated. Most gamebreaking bugs and such removed. yey.
+
+As I said earlier and probably in your DMs.  Delete all exes and files you've had to do with recent versions.  As for they'll conflict with this 9/10 and cause weird bugs.
+
+The save file saves into the extracted folder from here.  So. Yeah. There's that. Meaning you should delete everything.
+
+Beyond that, this is the new update. Not much, but enjoy. Mostly bug fixes and feature beginning tests.
+
+If you get any errors, tell me. Aaaahhhhhh. I'll fix them.(edited)
+Abyssal Gaze
+-
+03/19/2017
+Changelog - Version 0.09???? - 3/20/17 (Not released yet.) 
+
+Ran's [Overcast] skill no longer gives a literal infinite move range.
+Okuu's Mortar Shot now properly damages all in range.
+Temporarily removed cooldown skills for bug fixes. This, inturn, should fix the issue with learning skills breaking the game.
+
+Every character now earns TP differently by default. (Although can still be changed via TP Mode in the 'Skills' tab.
+Aya now earns TP by evading only.
+Ran earns TP by healing others.
+Youmu earns TP by damaging enemies.
+Sakuya earns TP by damaging enemies.
+Chen earns TP by merely taking hits.
+Okuu earns TP when any other ally takes 1 or more HP/MP/TP Damage during an enemy phase.
+
+Raging Spirit put next to Magic Tuning properly now gives you the right skill as intended.
+Aya's Wind Sickle buffed from 22 base damage to 31.
+Okuu has two new skills! [Abyss Nova, Push]
+Max TP Amount changed to 500.
+Due to TP Amount changes, Ran's Chen Summon skill reduced from requiring 25% of Max TP and MP to 10% Max TP and 15% Max MP.
+Aya's [Camera Flash] move is now properly only usable during her [Showtime] status.
+Rocket Dive, Overcast, and Infromational Networking now have proper attack usage descriptions. I.E Ran uses Overcast! Which wasn't appearing before.
+Overcast now properly only works on Ran.
+Sakuya's [Thief's Luck] renamed to [Maid Elegance]
+[Assassin's Edge] Description changed.
+Due to the TP Limit Raise, Many skills have gotten varied TP usage changes.(edited)
+Abyssal Gaze
+-
+03/19/2017
+TP Cost Changes List
+Weapon Break/Armor Break increased to 30TP. (From 10.)
+Assassin's Edge increased to 65 TP (From 50.)
+Throwing Knife increased to 10 TP (from 5.) Upgrade Damge increased to +10% (From 5) TP usage increases by 12% per Upgrade now. (From 5)
+Multi-Throw increased to 20 TP (from 10)
+Blinding Sun increased to 35 TP (from 25), No longer heals enemy MP.
+Cannon Shot Upgraded TP usage increased to 15% (From 10.).
+Shooting Sun now has 4 max upgrade levels. TP usage increased to 25 (from 20.)
+Magic Transfer now costs 10 TP (From 5.)
+Graze Dash now costs 55 TP (From 45.)
+Accelerate now costs 15% of Max TP and 25% of max MP. Effect buffed to last 3 turns in light of this. 
+Calm Mind now costs 275 TP to use. (From 0.)
+Gale Slash now affects everyone in the line. TP cost increased to 75 (from 25) Push effect buffed to 3 (from 2). Ability now obtained via Synthesis involving the Gale Blade.
+Gale Pull now requires 5% of Max TP + 10 to use. Now affects all in range instead of one entity.
+Ghostly Blade now uses 45 TP (from 10) and 15 MP (from 10)
+Slash Of Present now has a weirder animation. MP Cost increased to 70 (from 50), TP Cost increased to 60 (from 50.)
+Extended Throw now costs 80 TP (from 35.)
+Soul Blade increased to 10 MP (from 5), 25 TP (From 20), increased Damage Upgrade amount to 10% (from 5%)
+Aura Blade increased to 5 MP (from 0), 15 TP (from 10.) Now properly upgrade morphs into Spirit Blade.
+Overcast no longer requires MP. Requires 3% of Max TP + 25 TP (from 35 TP.)
+Showtime now requires 75 TP (from 50.)
+Rocket Dive Range increased from 3 to 6. Now a 'Nuclear' skill.
+Targeted Time Stop now affects all enemies. This allows for Sakuya's [Extended Throw] to effectively allow her to stop more enemies. Has a new animation. Now uses 15 MP (from 10.)
+Fire II, Flame II, Wind, Wind Sickle, Water, Thunder, Stone, and Ice can now Spell Critical.
+Strong Attack can now Critical.
+Quickness now costs 20 MP (from 15.)
+March 20, 2017
+Abyssal Gaze
+-
+03/20/2017
+Increasing MaxHP via Attributes now increases it by 2 instead of 5 points. 
+Increasing Luck via Attributes now costs 4 points. (From 3.)
+Changed the way characters gain Attribute Points. This is to ensure that you don't go all godly early on.
+Added in a new NPC for basic bitch enchanting. Added in three test enchants.
+March 21, 2017
+Abyssal Gaze
+-
+03/21/2017
+Movement and Actions no longer have confirmation menus. Moving no longer shows you potential attacking range either. However, you still can cancel your movements and actions by pressing ESC/X before preforming them or confirming with enter. 
+
+Counterattacks are finally isolated into an individual variable. So they'll be back in soon enough.
+
+Made the dragon fight a lot harder and more rewarding. Also changed the text for it so that it doesn't act as if you always lost.  
+You can now turn back properly upon entering the Wellspring and Deserted Town.
+The first Recruitment test is in! And that's right.   It's fucking Marisa! Marisa is now a recruitable ally or potential boss enemy. There might be bugs here and there, but we'll see.
+Every character now has a basic Danmaku Weak+Strong Shot instead of just Aya having her Wind Sickle shot. Yay!
+A little lovely lady I know finished up a few simplistic animations for me. So we'll have tons of new animations soon! Maybe after this update gets released. Yaaay.
+
+Pressing ALT+Enter now properly fullscreens the game. Why you'd want that, I'unno! But there you go. I'll add onto that soon enough.
+Tutorial almost done. Probably in next update. Yeah. Fixed the Alpha Shop's "Coming Soon" text.
+
+Chen Summon now works 95%. Just have to make it so she scales with leveling.
+All dual wielder characters instead of being able to equip two weapons, will now only be able to equip one but have a secondary slot for bonus attributes and such to better immersion. This may change depending on if I want to add in sub-attacking and actual dual attacking mechanics. (Probably when we get out that first 'Dancer' type unit.)
+
+Disabled Stat Growths. This means that attributes and enchantments will be the main way to get more power and pizzaz and such. The main reason for this is that until I can program in a decent, viable growth system like in the Fire Emblem games. (I.E: % Chance to get this and that.) which is relatively simple, but with the other stuff I've programmed in, it seemingly conflicts a lot. So yeah. This may or may not be permanent.
+Abyssal Gaze
+-
+03/21/2017
+Blinding Sun now affects all enemies in range instead of just one. Blind chance increased to 90%.
+Magic Transfer now affects only affects one ally. 
+
+Okuu has another new skill! [Meltdown]! (Animations soon.)
+
+A good few amount of skills got new animations, courtesy of some friends. Thank you, friends. Danke. Can probably get Master Sparku added in here soon enough. 
+
+Ran can now summon two versions of chen. [Support Type] and [Healer Type]
+Started some work on making the game more updatable without having to send downloads everywhere. Kinda like..hotfixes or an actual game updating system. Either way, it's started.
+
+Started on a horrible thing. Simplifying the game! That's right. Making things more simple to under--that's called a tutorial. Okay. Potential adding of a "Help" button on ESC menu then.
+
+Maybe adding in an Outside Of Battle System like in old days Legend Of Zelda. I mean, I already made the system for the most part with my Avoid The Succ game. So. I could probably use it. We'll see.
+Settings for Volume almost fixed. Huzzah!
+Added in Passive Skills properly this time around. I fucked up making the programming the first time around due to conflicts.
+Added in basic life-steal and mana-steal on attack stuff in. This'll be useful for Yuyuko??? (Maybe.)
+You can now only equip 1 Accessory. You can now equip 2 rings.
+Added in the first 2 rings, and four new accessories. Aya's Camera is now a thing. It is also a unique item to her. It can also be enchanted.
+
+Terrain Coding is finally done. Added into one of the new maps. 
+Changed how characters grow their attribute points. (Original Method being Luck/6 = Points gained on level. Due to the way I had stat growths set up, This usually meant godmode by level 4 if played right.
+
+Maybe add in a rarity system. Give players more chances to do unique things. Sometimes, a shit weapon can be special, yo. 
+Started programming for the ability to switch equipment mid-battle.(edited)
+March 24, 2017
+Abyssal Gaze
+-
+03/24/2017
+Max Level Cap changed to 30. This means growths for stats will be weirder if the current disabled system gets added back in. 
+
+This also means you should add into your attribute points every battle and afterwards.  I'll fix the growths for next update. 
+
+The Green Orb Tutorial Option now auto-procs on loading in. I'll make a more fleshed out and detailed tutorial for next update. But that orb will suffice for now.
+
+Added in the battle for Recruiting Marisa now. Added in another battle as well.  Currently: Only Ran and Sakuya can recruit her to the team using the skill [Convincement] and it does nothing otherwise. 
+
+When Marisa is 'recruited', she'll be turned into an AI controlled ally after playing some text and events. If the battle is won and she's still alive, she'll be properly recruited. If she dies, she'll be perma-dead. I'll fix that, but that's how it works for now.
+
+Started working on a brand new victory condition based off of the typical Fire Emblem Meme. It's the one where you have to reach X to do X.  Like. Reach this Tile to escape with allies to win the battle. Killing enemies is optional. You know. That stuff.  Also working on Turn-Based Survival and Turn Based Victory Conditions.
+
+[Win within X turns]
+[Protect unit X]
+[Stay alive for X turns]
+[Reach Unit X with unit X (Possibly all.)]
+Also adding in unaligned units. As well as a more rich team system. I had this weird dream of Remilia and Sakuya fighting against Eirin and Mokou against Seijia and Sukuna against Murasa and Byakuren. But right now you can only have every enemy on one side and your party members on another. So I'm adding that in.
+March 25, 2017
+Abyssal Gaze
+-
+03/25/2017
+@everyone https://docs.google.com/forms/d/e/1FAIpQLSdO6hq4hLXrFfLRGQqHW54x7zZR3p6PCq4mYm9WHT2kMzW8EA/viewform 
+
+Look at this meme. Fill that out if you want.
+Google Docs
+The Basis Of This Here - Touhou Emblem
+Just questions about this memetastic game of mine I'm making for no reason other than having free time. Currently called Touhou Emblem. It's not a serious project at all, so don't expect anything fancy. Mwahahahahaha. Game's in Alpha form now as for I'm only making sure it's all working. So enjoy answering these questions for whatever reason you're answering them. As per usual, it's an SRPG based off of Fire Emblem and Final Fantasy Tactics and such. Name is subject to change and probably will. Not much, bu...
+
+March 26, 2017
+Abyssal Gaze
+-
+03/26/2017
+Started on the process to getting some fancier animations and making actual Danmaku Moves and skills such as [Shooting Sun] into Projectile based moves.  To start off with this, I've disabled the characters jumping every time they attack now. So that should be good, yeah? 
+
+Now I just have to add in projectile icons/animation and the projectile system.
+
+This was already planned, but just like in Valkyria Chronicles, I plan on having a system so that if you're near someone. (The Example I mainly thought up of was Mokou standing next to Kaguya) you may get special status effects, stat boosts/debuffs or conditions for attacking.  I guess the easiest example would be.
+
+If Kaguya is within X tiles of Mokou, +5 ATK, +10 MAT, 30% Chance for all damaging attacks Mokou does to be redirected to Kaguya. Or something along those lines. Like how if one of those Valkyria Chronicles' Lesbians were near men, they'd literally get so many stat debuffs because Ugh. Fucking near men. I hate this job. while if they Fancied Women and were near them, they'd get so happy and would have increased supportive fire when they're attacking.
+
+Or when Edgy was near one of her prefered friends, she'd literally have that damned passive that made her talk so damn much, it sometimes skipped a turn or reduced accuracy or some shit.
+
+As recommended by a person who filled out that form, I'm also planning to add in Leadership Bonuses, although that was already planned either way. Support Attacks also gonna be added in. Though that'll take a while so don't expect it soon.
+
+Maybe those little passerby things in the Bullethell games of Touhou. Where it says like. Stage 1 Blahblahblah and all that. Maybe I'll add those to some of the maps.(edited)
+Abyssal Gaze
+-
+03/26/2017
+Fixed Raging Spirit's Orb Shard so that it doesn't give you a negative amount of ATK, but rather a positive amount.
+Phantasmagoria Shard properly gives you the resist magic buff now. 
+Gale Vortex Shard properly scripts in the addition of the skill. This means now that when you use Gale Vortex, it won't literally just drag everyone in the AoE no spaces. It'll pull EVERYONE the proper number of spaces for EACH Person.
+
+Youmu now learns a special version of Weapon Break and Armor Break, when leveling it up, will turn into even more powerful variants of the skill.  This is a test. Finicky programming and all that. But maybe they'll be neat.
+March 28, 2017
+Abyssal Gaze
+-
+03/28/2017
+(Teleportation confirmed to be a bitch to add in, so post poned until future update release.)
+March 30, 2017
+Abyssal Gaze
+-
+Last Thursday at 1:52 AM
+Well. Recieved some Custom-Made Icons and such courtesy of some friends. So I'll probably also add those in this big update.   Also recieved a remixed version of a Touhou Song. Not sure if I'll use it yet or not.
+
+Started working on a Tag Team Support Skill System. Just like in Fire Emblem. I think I said this already, but still happening.
+
+Youmu now has her Hakurouken and Roukanken.  Her Hakurouken is planned to have an ability to 'exorcise' Spirit-Type Enemies.
+Speaking of that. Added in Enemy Typings. Now certain skills will be more effective against certain types of enemies and vice-versa.
+
+
+I don't have a Hakkero Sprite. Nor a Broom Sprite (I don't understand that latter but we'll have them soon.) So Marisa's weapons will look weird for a bit.
+
+Added in Reisen and Eirin as playable Characters.
+
+In addition to adding these new characters, the following features have been added in. Although are heavily buggy and might not be implemented this update.
+
+Special Item Skills. Planned.
+
+Increased Effectiveness (Potions.)  Based on the type of potion, if Eirin uses this skill with the corrosponding potion, it will boost its usage as well as give a potential chanced buff to the item. (I.E Using Increased Effectiveness will increase the HP recovered from 15% HP+25 HP to  25% HP+50. Which is what the current Medium HP Potion is set at. ``(edited)
+Eirin will also have skills to use in battle (and for whatever reason, out of battle.) which allow her to preform special Synthesis and Crafting on the fly with the required ingredients. I'm hoping that'll somehow incorporate into changing the tides of battle when you get a loot pickup from an enemy or Eirin manages to use A and B to make C which is a component for making F which is D+E.  Get what I'm saying? Planned heavily as fuck.
+
+Eirin will have an ability to make a temporary version of the Hourai Elixir at some point which will probably grant like 1 - 4 turns of Immortality which essentially means party members won't be able to die but they'll still take damage and healing and such as normal. Planned.(edited)
+Abyssal Gaze
+-
+Last Thursday at 2:04 AM
+Added in the ability to confuse players and enemies alike. 
+
+This entails basically making characters into an AI who don't care about targetting or the tactical AI system and will generally do whatever the fuck they want. Even if it means tearing out your organs and using them to summon Chen.  Functioning. Only one bug.
+
+Split-Imaging Abilities.
+
+Since I saw that Ultraviolet Field move in Soku, I had the idea to allow Reisen to split herself as such and make multiple of her on the field. So yeah. That's a thing. May be incredibly buggy though, but that's what you guys are here for testing. 
+
+Eirin functions as a test Dancer. IN other words. Dancer abilities added.
+
+In case yer unaware, a Dancer is someone who sits there, dancing and being sexy to motivate targets and thus, give them extra actions in a turn. This does not work for the Dancer themselves.
+(I've seperated being able to dance to give extra move actions and extra skill/item based actions. That way, you have to think it out to make it broken.)(edited)
+March 31, 2017
+Abyssal Gaze
+-
+Last Friday at 1:47 AM
+Hakurouken also spawns in with a skill in order to dispel confusion since that's added in.
+
+Steal-Type Abilities. Marisa was added in. She's recruitable. So we need the ability to steal items, naturally. She'll also be able to 'steal' certain types of skills in order to use them for herself. Some will be temporary, others, permanent. All I can confirm for sure is that a majority of them will be weakened versions of the original, stolen skill.
+
+Marisa has Terrorism boosts and special Bomb-Based skills. Such as making the Poison Bomb have a bigger AoE. Planned.
+
+Remember the good old days? Astra? Sol? Aether? Glacies and such? I finished the base structure for all of that and it'll be testable next version.
+
+Tipping Of Scales not included.
+
+Started added in more fancy stuff such as
+-----------------------------------------------------------
+
+Percentage Chances to survive a lethal attack (Which I had planned for immortals or those dumb luck Touhou Characters.
+
+Damage Cap Effects (I.E Using Skill A will make Character A unable to be damaged above # damage in x Time and y Actions)(edited)
+Damage Reduction outside of guarding.
+
+Healing Buffs and Debuffs as well as the ability to inflict stuff like Potion Sickness. That classical stuff.
+
+Higher Stat x if y is at >#% or <#%  (I.E More ATK the lower yer HP is. That kinda stuff.)(edited)
+April 2, 2017
+Abyssal Gaze
+-
+Last Sunday at 4:36 AM
+Reworked some menu appearances and such. That'll be much better now.  Looks a bit more...easier to manage.
+
+I've been deciding between two party management systems that I've been toying around with. More info on that in #technical-emblem 
+
+Every member in your party will no longer be seen on the screen. Plans to make it togglable confirmed.
+
+Ran has a new face icon. Rejoice.
+April 3, 2017
+Abyssal Gaze
+-
+Yesterday at 5:53 AM
+Added in Nitori, Albeit she's very unfinished.
+
+Nitori will come with some basic bitch stuff. Here's a list of current and planned features.
+
+-----------------------
+(Planned/Work In Progress) Making Every Shot Count: Ammo Counters: Just like Hopeless Masquerade. Where every one of her shots will count. Ideas to also add in special types of ammunition or make her TP function as a sort of ammo meter is being debated. By me. In my mind.
+
+(Already added in. Albeit not the full extensiveness.) Weapon Attachments: We already have enchantments added in. So I'll probably make those more extensive for Nitori in the future. Red Dot Sights, Extended Mags (If Ammo Count gets in anytime soon.), FMJ Bullets, all that. The good, fancy stuff. Underbarrel Grenade Launchers and such.
+
+(Nearly done. Since they seem relatively simple and hopefully won't break anything.) Deployable Turrets and other devices. Nitori deploys a turret that lasts for X turns. Does special things. Is automatic meaning that you don't control it. Some turrets will be able to move and such.   Plans to have these require special healing types that only Nitori can offer is in the works.  Halted until icon for turrets are made.
+
+(Nowhere near done.) Ability to give other unit items: This is planned for everyone, but I'll start off by testing with Nitori since she'll pretty much have the most new features as of late, if not, Eirin.(edited)
+(Nearly done. Not coming this update.) Attacks over time: She'll shoot into the air. And then ded someone with a bombardment of artillery. That's the plan. So that's what's gonna happen. Kinda like a target mark kinda thing. Mark target. Then zoom zoom zoom boom boom. TERRORISTS WIN.
+
+(Finished) Item Charges For Unique Gadgets: Simple. Nitori has gadget. Uses them. Can do special things like give allies temporary gadget skills like shooting a fucking flamethrower or like tossing a rocket or something.
+
+Incase anyone is wondering what this Nitori is gonna look like.  https://a.cocaine.ninja/fzzthr.jpg (edited)
+
+Abyssal Gaze
+-
+Yesterday at 10:58 AM
+Added in a few things to add more time consumption to the alpha test.
+
+These updates are gonna take long periods or short periods depending on the value and extensiveness of the updates. As such. I've decided to add some things for you nerdos to do and will keep on adding. Here's some planned and already being implemented features.
+-------------------------------
+
+(Currently being implemented.) Fancy Battle Arena: Don't get stuck with those same reoccuring battles anymore! Just toss yerself into the arena, get a random bunch of enemies and go overthink or something! It'll feature some stuff such as.
+(All this comes in the future, mind you. It's just about 24 RNG Enemy Battles right now.)
+Restrictive versions so that you can't use certain party members.
+Random Map Selections.
+Alternative Map Versions.
+Special Win Conditions.
+And more!
+
+  (Currently being implemented.) More crafting options:   More recipes, more ingredients, more everything! This way, you can customize the feel and flow of your battles in different ways! It'll help for those RNG battles.
+
+(Future Feature.) Enemy Reinforcements: You thought it was over, but they just sent more troops! Have fun.
+April 4, 2017
+Abyssal Gaze
+-
+Today at 3:44 AM
+REPLY
+Added in leveled charges for status effects and such.  This means that If you wanna say, have a shield that defends from bullets, those charges determine how many bullets you protect from while still being one status effect.  This essentially means you don't have to keep spamming "Deflect Bullets" over and over or something stupid to replicate the same effect that should've been there from turn one. Currently used for nothing.
+
+Added in Status Effects worsening or powering up over time. Like Toxin in Pokemon. If you don't rid of it, it gets worse and worse with every turn. In turn, status effects can also be able to get better and better the longer they're there.  
+
+The main reason for adding this one is because I felt Graze Dash was a bit too OP so I was gonna make it generate more and more evasion over time with turns so that the more evasive a character is, the better it'll be from the get-go. For characters like Aya.  Feature added in but I didn't nerf Graze Dash yet.
+
+Added in the basis for Max Power Boosts.  You know how when yer playing some of the bullethell games or Hopeless Masquerade or Urban Lagging In Limbo?
+
+Basically, when you get to a certain point in power, I'm gonna add it in so you pretty much get all those super buffs. More AoE. More Power. More Speed. Maybe different skills and such or buffed skills. So yeah.
+Feature currently being added in. Might or might not make this update. Kek.
+Added in Talismans which utilize the Item Charge System I've got done. This currently is going to serve as a subsituite for Ran being fucking worthless after using up all her MP.
+
+Removed other party members outside the top one showing on the map. Because fucking this.
+FUCKING THIS.
+https://a.cocaine.ninja/cbinot.gif (edited)
+
